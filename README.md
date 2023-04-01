@@ -1,8 +1,6 @@
 # NOTE: THE EMAIL FEATURE IS NOT JET IMPLEMENTED.
 
-# PROJECT NAME: IM
-
-## MEDICAL RESERVE ALARM:
+## PROJECT NAME: MEDICAL RESERVE ALARM
 
 ## WHAT I WANT:
 	I want a system that notifies my (ideally by email) when a medical hour is now available. I want to tell the 
@@ -25,9 +23,22 @@
 	- They could ban my Ip.
 	- Is it really legal?
 
-SOLUTION:
+## SOLUTION:
 	A python script that asks to the endpoint constantly and sends an email when a new appointment it's
 	available.
 
+## REQUIREMENTS
+ - Create a results folder (or change the destination on get_appointments.py)
+ - Python 3
+ - Requests library
+ - Docker (optional)
+
+## HOW TO USE
+    Right now (01/04/2023) the get_appointments.py gets a token and then queries all medical centers looking for
+    appointments of the speciality you need and then stores the result of each medical center on the results folder.
+
+    You just need to find the _id of the speciality you need, paste it on "Especialidad" and after, paste the id on "Categoria". You can find this data on the "especialidades.py" file.
+
+    Finally, you just run the get_appointments.py
 
 
