@@ -216,12 +216,12 @@ def get_available_hours(centro):
 # En este caso, el la especialidad es _id y la categoria para buscar la hora es el id del json
     data = {
         "BupaHorasDisponibleMedicoRequest": {
-            "Categoria": "11814A",
+            "Categoria": "11810B",
             "RutProfesional": "",
-            "FechaDesde": "2023-03-31",
+            "FechaDesde": "2023-04-01",
             "FechaHasta": "2023-05-05",
             "CentroSanitario": "RED",
-            "Especialidad": "2690",
+            "Especialidad": "2100",
             "Prevision": "0000900003",
             "CentroMedico": centro,
             "Clasificacion": "01"
