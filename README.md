@@ -21,7 +21,6 @@
 
 ## PROBLEMS:
 	- They could ban my Ip.
-	- Is it really legal?
 
 ## SOLUTION:
 	A python script that asks to the endpoint constantly and sends an email when a new appointment it's
